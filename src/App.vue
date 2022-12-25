@@ -1,8 +1,20 @@
-<script setup>
+<script lang="ts">
+
+import AppHeader from './components/appHeader.vue';
+
+export default{
+  components:{
+    AppHeader,
+  }
+}
+
 </script>
 
 <template>
-  <routerView></routerView>
+  <div class="w-full h-screen">
+    <AppHeader></AppHeader>
+    <routerView></routerView>
+  </div>
 </template>
 
 <style scoped>

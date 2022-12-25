@@ -1,6 +1,5 @@
 <template>
- <div class="w-full h-screen border-red-500 border ">
-    <h3 class="my-5 text-center">home</h3>
+ <div class="h-full w-full">
     <appRandomizer></appRandomizer>
  </div>
 </template>

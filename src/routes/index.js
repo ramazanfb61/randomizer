@@ -7,7 +7,8 @@ const routes = [
   {
     path:"/",
     component : AppHome
-  }
+  },
+
 ]
 
 
