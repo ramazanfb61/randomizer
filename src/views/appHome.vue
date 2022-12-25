@@ -1,5 +1,16 @@
 <template>
-  <div class="m-0  border-red-500 border-4 h-screen w-screen">
-    <h3 class="text-center mt-3 py-3 text-lg border">Hello World</h3>
-  </div>
+ <div class="w-full h-screen border-red-500 border ">
+    <h3 class="my-5 text-center">home</h3>
+    <appRandomizer></appRandomizer>
+ </div>
 </template>
+
+<script>
+import appRandomizer from '../components/appRandomizer.vue';
+
+export default {
+  components:{
+    appRandomizer
+  }
+}
+</script>
